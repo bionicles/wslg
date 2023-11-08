@@ -431,7 +431,7 @@ try {
         westonArgs += " ";
     }
     westonArgs += "/usr/bin/weston ";
-    westonArgs += "--backend=rdp-backend.so --modules=wslgd-notify.so --xwayland ";
+    westonArgs += "--backend=rdp-backend.so --modules=wslgd-notify.so ";
     westonArgs += westonSocketOption;
     westonArgs += " ";
     westonArgs += westonShellOption;
